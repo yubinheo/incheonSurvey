@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나 마트에 있어.. 나를 찾아줘</title>
+    <link rel="stylesheet" href="/question_info.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="question_main">
+        <div>
+            <h1 class="question_header">내가 마트에 간다면, 어떤 물건이 될까?</h1>
+        </div>
+
+        <form action="/play_Userinfo" method="post">
+
+            <div class="question_contents">
+                <p class="question_num">Q1</p>
+                <p>재학중인 학교명은 무엇입니까?</p>
+            </div>
+
+            <div class="input">
+
+                <input type="text" input:focus {outline:none;} name="school" id="school" value="<%= name %>" readonly />
+
+            </div>
+
+            <div class="question_contents">
+                <p class="question_num">Q2</p>
+                <p>당신의 이메일은?</p>
+            </div>
+
+            <div class="input">
+
+                <input type="text" name="email" id="email" placeholder="당신의 이메일 입력" input:focus {outline:none;}>
+
+            </div>
+
+            <div class="question_contents">
+                <p class="question_num">Q3</p>
+                <p>당신의 나이는?</p>
+            </div>
+
+            <div class="input">
+
+                <input type="text" name="age" id="age" placeholder="당신의 나이 입력" input:focus {outline:none;}>
+
+            </div>
+
+            <div class="question_contents">
+                <p class="question_num">Q4</p>
+                <p>당신의 전화번호는?</p>
+            </div>
+
+            <div class="input">
+
+                <input type="text" name="phone" id="phone" placeholder="당신의 전화번호 입력" input:focus {outline:none;}>
+
+            </div>
+
+    </div>
+    <button class="submit">인적정보 등록하고 다음으로 넘어가기</button>
+
+    </form>
+</body>
+
+</html>

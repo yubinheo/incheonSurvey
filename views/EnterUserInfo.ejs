@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나 마트에 있어.. 나를 찾아줘</title>
+    <link rel="stylesheet" href="/question_info.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="question_main">
+        <div>
+            <h1 class="question_header">내가 마트에 간다면, 어떤 물건이 될까?</h1>
+        </div>
+        
+        <div class="question_contents">
+            <p class="question_num">Q1</p>
+            <p>재학중인 학교명은 무엇입니까?</p>
+        </div>
+
+        <div class="input">
+            <input type="text" id="school" placeholder="검색할 학교명 입력" input:focus {outline:none;}>
+        </div>
+
+    </div>
+    <button class="submit" onclick="location.href='/serachschool/' + document.getElementById('school').value">검색</button>
+</body>
+</html>

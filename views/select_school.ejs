@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나 마트에 있어.. 나를 찾아줘</title>
+    <link rel="stylesheet" href="/question_info.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="question_main">
+        <div>
+            <h1 class="question_header">내 학교를 찾아볼까?</h1>
+        </div>
+        
+        <% for(var i = 0; i < result.length; i++) { %>
+            &nbsp;&nbsp;&nbsp;<a href="/userinfo/<%= result[i].name %>" style="color:lightcoral"><%= result[i].name %></a><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<%= result[i].address %> <br /><br />
+        <% } %>
+    </body>
+</html>

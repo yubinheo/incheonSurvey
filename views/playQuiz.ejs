@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나 마트에 있어.. 나를 찾아줘</title>
+    <link rel="stylesheet" href="/question_select.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="question_main">
+        <div>
+            <h1 class="question_header">내가 마트에 간다면, 어떤 물건이 될까?</h1>
+        </div>
+        <form action="/submitSurvey" method="post">
+
+            <% for(var i = 0; i < qsInfo.length; i++) { %>
+
+            <div class="question_contents">
+                <p class="question_num">Q<%= i + 1 %></p>
+                <p><%= qsInfo[i].title %></p>
+                <input type="hidden" name="index_<%= qsInfo[i].quest_index %>" value="<%= qsInfo[i].quest_index %>"
+                    required /><br />
+            </div>
+            <br />
+            <% for(var j = 0; j < scInfo.length; j++) { %>
+            <% if(qsInfo[i].gubun == "1") { %>
+            <center>
+                <br /> <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="1" checked />
+                <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="2" required />
+                <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="3" required />
+                <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="4" required />
+                <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="5" required /> <br />
+            </center>
+            <% break; } %>
+
+            <% if(scInfo[j].quest_index == qsInfo[i].quest_index) { %>
+
+            <center>
+                <div class="itemBox">
+                    <input type="radio" name="value_<%= qsInfo[i].quest_index %>" value="<%= scInfo[j].idx %>"
+                        required><%= scInfo[j].comment %>
+                </div><br />
+            </center>
+
+            <% } %>
+            <% } %>
+            <br />
+            <% } %>
+
+            <button class="submit" onclick=location.href='../question/questionPage_info.html'>
+                제 출
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

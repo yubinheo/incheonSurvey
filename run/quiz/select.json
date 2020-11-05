@@ -1,0 +1,470 @@
+{
+    "select": [
+        {
+            "id": 2,
+            "contents": "학업, 성적 및 진로 문제",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "친구, 이성친구와의 관계",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "외모 및 신체 변화",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "폭력 및 집단 따돌림",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "중독 (음주, 흡연, 게임 등)",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "학교, 부모의 간섭 또는 무관심",
+            "gubun": 0
+        },
+        {
+            "id": 2,
+            "contents": "가정의 경제적 문제",
+            "gubun": 0
+        },
+        
+
+        {
+            "id": 3,
+            "contents": "다양한 진로, 학업 관련 정보",
+            "gubun": 0
+        },
+        {
+            "id": 3,
+            "contents": "공부 이외 활동 공간 제공",
+            "gubun": 0
+        },
+        {
+            "id": 3,
+            "contents": "전문 선생님과의 상담 기회",
+            "gubun": 0
+        },
+        {
+            "id": 3,
+            "contents": "대화와 관심",
+            "gubun": 5
+        },
+        {
+            "id": 3,
+            "contents": "폭력 및 중독 예방 교육",
+            "gubun": 6
+        },
+        {
+            "id": 3,
+            "contents": "선후배 연결, 친분쌓기 도움(멘토링)",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 5,
+            "contents": "주변사람과 대화한다",
+            "gubun": 5
+        },
+        {
+            "id": 5,
+            "contents": "운동(스포츠)을 즐긴다",
+            "gubun": 7
+        },
+        {
+            "id": 5,
+            "contents": "친구들과 돌아 다닌다",
+            "gubun": 1
+        },
+        {
+            "id": 5,
+            "contents": "술(담배)로 해결한다",
+            "gubun": 0
+        },
+        {
+            "id": 5,
+            "contents": "잠을 잔다",
+            "gubun": 0
+        },
+        {
+            "id": 5,
+            "contents": "TV, 영화(연극)를 본다",
+            "gubun": 0
+        },
+        {
+            "id": 5,
+            "contents": "PC(휴대폰)게임을 한다",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 6,
+            "contents": "전혀 생각하지 않는다",
+            "gubun": 0
+        },
+        {
+            "id": 6,
+            "contents": "가끔 생각한다",
+            "gubun": 0
+        },
+        {
+            "id": 6,
+            "contents": "자주 생각하는 편이다",
+            "gubun": 0
+        },
+        {
+            "id": 6,
+            "contents": "항상 생각한다",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 7,
+            "contents": "학교폭력, 왕따 때문에",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "호기심 때문에",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "공부하기 싫어서",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "부모님, 가족과 갈등 때문에",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "사회 경험을 위해",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "가정 형편 때문에",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "친구, 선후배의 이야기를 듣고",
+            "gubun": 0
+        },
+        {
+            "id": 7,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 8,
+            "contents": "그냥 참음",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "돈이 없어서",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "용기가 없어서",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "갈 곳이 없어서",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "다른사람의 비난이 두려워서",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "다른사람 설득, 대화 때문에",
+            "gubun": 0
+        },
+        {
+            "id": 8,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 10,
+            "contents": "예",
+            "gubun": 0
+        },
+        {
+            "id": 10,
+            "contents": "아니요",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 11,
+            "contents": "배달(신문, 음식)",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "서빙",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "전단지 배포",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "주유소, 편의점",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "사무직",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "육체적 노동",
+            "gubun": 0
+        },
+        {
+            "id": 11,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 12,
+            "contents": "용돈을 스스로 마련하기 위해",
+            "gubun": 0
+        },
+        {
+            "id": 12,
+            "contents": "갖고 싶은 것을 얻기 위해",
+            "gubun": 0
+        },
+        {
+            "id": 12,
+            "contents": "집안 생활비에 보태기 위해",
+            "gubun": 0
+        },
+        {
+            "id": 12,
+            "contents": "사회 경험을 위해",
+            "gubun": 0
+        },
+        {
+            "id": 12,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 13,
+            "contents": "정해진 시간 이상의 일을 하거나, 쉬는 시간에 쉬지 못한 것",
+            "gubun": 0
+        },
+        {
+            "id": 13,
+            "contents": "돈을 너무 적게 받거나 늦게 받은 것",
+            "gubun": 0
+        },
+        {
+            "id": 13,
+            "contents": "어리다고 무시당한 것",
+            "gubun": 0
+        },
+        {
+            "id": 13,
+            "contents": "사성(性) 적인 말이나 행동으로 기분 나빴던 것",
+            "gubun": 0
+        },
+        {
+            "id": 13,
+            "contents": "일하다 다쳤을 때 제대로 치료를 못 받은 것",
+            "gubun": 0
+        },
+        {
+            "id": 13,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 15,
+            "contents": "TV 시청",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "컴퓨터, 게임",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "친구 만나기",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "운동(축구, 농구, 수영 등)",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "음악 활동(피아노, 기타 등)",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "여행",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "영화, 연극 관람",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "쇼핑",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "독서, 음악 감상",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "봉사활동",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "종교활동",
+            "gubun": 0
+        },
+        {
+            "id": 15,
+            "contents": "잠",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 16,
+            "contents": "집",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "학교",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "학원",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "PC방, 노래방",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "스포츠시설",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "청소년시설",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "문화시설, 공간",
+            "gubun": 0
+        },
+        {
+            "id": 16,
+            "contents": "공원 및 길거리",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 17,
+            "contents": "시설, 장소 부족",
+            "gubun": 0
+        },
+        {
+            "id": 17,
+            "contents": "시간 부족",
+            "gubun": 0
+        },
+        {
+            "id": 17,
+            "contents": "비용 부담",
+            "gubun": 0
+        },
+        {
+            "id": 17,
+            "contents": "함께 할 친구(지도교사) 없음",
+            "gubun": 0
+        },
+        {
+            "id": 17,
+            "contents": "해당 없음",
+            "gubun": 0
+        },
+
+
+        {
+            "id": 18,
+            "contents": "기분 전환, 스트레스 풀기",
+            "gubun": 4
+        },
+        {
+            "id": 18,
+            "contents": "친구, 사람들과 친해지기",
+            "gubun": 1
+        },
+        {
+            "id": 18,
+            "contents": "교양, 학습에 도움",
+            "gubun": 3
+        },
+        {
+            "id": 18,
+            "contents": "진로, 미래 직업에 도움",
+            "gubun": 2
+        }
+    ]
+}
