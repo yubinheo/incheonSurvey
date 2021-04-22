@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    *{
+        font-family: 'MaplestoryOTFBold';
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: darkgray;
+        background-repeat : no-repeat;
+        background-size : cover;
+        padding: 20px;
+    }
+    .question_main{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 20px;
+        margin-top: 10%;
+        background-image: url('../back/content_back.jpg');
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .select{
+        background-color: blanchedalmond;
+        text-align: left;
+        vertical-align: auto;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        vertical-align: center;
+        align-self: center;
+    }
+    .question_header{
+        text-align: center;
+        text-size-adjust:initial;
+        padding: 20px;
+        margin-top: 30px;
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 10%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .question_num{
+        text-align: center;
+    }
+    .question_contents{
+        background-color: #ffffff;
+        width: 80%;
+        padding: 10px;
+        margin-left: 8%;
+        margin-right: 12%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .item{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 64px;
+        line-height: 64px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        color: #747474;
+        background: #ffffff;
+        border-radius: 8px;
+    }
+    .itemBox{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .submit{
+        width: 80%;
+        height: 64px;
+        line-height: 64px;
+        margin-top: 2%;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+        border: 5px;
+        color: #fff;
+        background: #8dda9e;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 20px;
+    }

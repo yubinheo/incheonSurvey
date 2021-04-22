@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+footer{
+    font-family: 'Poppins', sans-serif;
+	background:#1D1C1C;
+
+    color: #FFF; 
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-menu li{
+	display: inline-block;
+}	
+
+
+
+footer .footer-menu li a{
+	color: #FFF;
+	margin: 0px 10px;
+	text-decoration: none;
+}
+
+footer .fa{
+    color:#FFF;
+    font-size:30px;
+}
